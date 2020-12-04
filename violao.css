@@ -1,0 +1,153 @@
+a{
+    text-decoration: none;
+    color:  #adff2f;
+}
+
+body{
+
+    background-color: #090902;
+    margin: 0;
+    text-decoration: none;
+}
+
+footer{
+
+    background-color:#000000 ;
+    box-shadow: 5px 5px 5px 5px #817906 ;
+    color:#FFF000;
+    font-family: 'Playfair Display', serif;
+    margin-top: 0px;
+    padding: 0px 150px 0px 150px;
+    text-align: center;
+}
+
+iframe{
+    border-radius: 20px;
+    margin-left: 20%;
+}
+
+img,p,#buscar {
+
+    text-align: center;
+    display: inline-block;
+}
+
+.coluna-50{
+    width: 70%;
+}
+
+.coluna{
+    margin-right: 10%;
+}
+
+.contato{
+
+    align-items: stretch;
+    background-color:  #000000;
+    box-shadow: 5px 5px 5px #817906 ;
+    color:#FFF000;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 12px;
+    padding-bottom: 0px;
+}
+
+#contatos{
+    margin: 0;
+    padding: 12px;
+    
+}
+
+img{
+    padding-left: 200px;
+}
+
+.mailto{
+
+    text-decoration: none;
+    color:#FFF000;
+}
+
+.materia{
+   padding-left: 45px;
+   padding-right: 45px;
+    text-align: justify;
+}
+
+.menu { 
+    width: 50%;
+    background-color: #ffffff;
+    float: center;
+
+}
+
+.menu div { 
+    font-weight: bold;
+}
+
+.menu  div:active {
+    transform: scale(1.1); 
+}
+
+nav ul{
+
+    background-color: #000000 ;
+    box-shadow: 0px 5px 5px #817906 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 12px;
+    text-decoration: none;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: #C6BA0A ;
+}
+
+nav ul :hover {
+    color: #FFF000 ;
+    text-decoration: none;
+    border-bottom: 2px solid #FFF000 ;
+}
+
+.post{
+    border: solid 2px #817906 ;
+    border-radius: 10px;
+    color:  #FFF000;
+    font-family: 'Playfair Display', serif;
+    margin: 250px 180px 25px 180px;
+
+
+}
+
+#seta{
+    position: fixed;
+    top: 350px;
+    left: -140;
+}
+
+#text{
+    background-image: url("https://soudebsb.com.br/wp-content/uploads/2020/05/serenata.png");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Playfair Display', serif;
+    opacity: 50%;
+    position: absolute;
+    top: 43;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;
+}
